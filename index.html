@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="img-container">
+            <img src="https://images.unsplash.com/photo-1585202900154-cf66e657d8d6?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style="width: 100%;" alt="tree">
+            <div class="logo-container">
+                <img src="odin-logo.png" alt="odin-logo" class="logo">
+                <p>ODIN</p>
+            </div>
+            
+        </div>
+        <div class="form-container">
+            <div class="text-container">
+                <p>This is not a real online service! You need something</p>
+                <p> like this in your life to help you to realize your deepest dreams.</p> 
+                <p>Sign up <em>now</em> to get started.</p>
+                    <br>
+                    <br>
+
+                <p>You <em>know</em> you want to.</p>
+                <br><br>
+            </div>
+           
+            <form action="">
+                <h1>Let's do this!</h1>
+                <div class="input-container">
+                    <div class="left">
+                        
+                            <label for="first_name">FIRST NAME</label>
+                            <input type="text" name="first_name" id="first_name">
+                            <label for="email">EMAIL</label>
+                            <input type="email" name="email" id="email">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" name="password" id="password">
+                            <p class="password-validation">password do not match</p>
+                    </div>
+
+                   <div class="right">
+               
+                        <label for="last_name">LAST NAME</label>
+                        <input type="text" name="last_name" id="last_name">
+                        <label for="phone_num">PHONE NUMBER</label>
+                        <input type="tel" name="phone_num" id="phone_num" pattern="^[\d]{11}$" placeholder="09499037134">
+                        <label for="confirm_pass">CONFIRM PASSWORD</label>
+                        <input type="text" name="confirm_pass" id="confirm_pass">
+                   </div>
+                    
+                </div>
+                <div class="lower">
+                    <button type="submit">Create Account</button>
+                    <p class="already">Already have an account? <span class="login">Login</span></p>
+                </div>
+               
+             
+            </form>
+        </div>
+    </div>
+</body>
+</html>
